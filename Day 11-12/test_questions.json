@@ -1,0 +1,162 @@
+[
+    {
+        "id": "q01",
+        "question": "How many days of paid time off do full-time employees get per year, and how many unused days can be carried over?",
+        "expected_answer": "Full-time employees get 25 days of PTO per year. Up to 5 unused days can be carried over to the next calendar year and must be used by March 31.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q02",
+        "question": "Who is eligible for the home office setup allowance and how much is it?",
+        "expected_answer": "Employees approved for regular remote work (at least two days per week) get a one-time allowance of EUR 500. Receipts must be submitted within 60 days of purchase.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q03",
+        "question": "Within how many hours must a lost or stolen device be reported to IT?",
+        "expected_answer": "Within 4 hours.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q04",
+        "question": "What discount do customers get when they license ProjectHub and Insight together?",
+        "expected_answer": "A 15% discount on the combined per-user price (for example Starter EUR 49 instead of EUR 58 per user per month).",
+        "source_document": "product_guide.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q05",
+        "question": "How long is the free trial and what limits does a trial workspace have?",
+        "expected_answer": "The free trial lasts 14 days with full Professional-tier features and no credit card. Trial workspaces are limited to 10 users and 5 GB of storage.",
+        "source_document": "product_guide.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q06",
+        "question": "What was the quarterly gross churn rate in Q1 2026?",
+        "expected_answer": "3.2%, down from 3.5% in Q4 2025. Annualized that is about 12.4%, above the internal target of 10%.",
+        "source_document": "quarterly_report_q1_2026.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q07",
+        "question": "Compare the Recovery Point Objective and Recovery Time Objective across the Starter, Professional and Enterprise tiers.",
+        "expected_answer": "Starter: RPO 24 hours, RTO 12 hours. Professional: RPO 4 hours, RTO 4 hours. Enterprise: RPO 1 hour, RTO 1 hour.",
+        "source_document": "product_guide.pdf",
+        "difficulty": "medium",
+        "type": "comparison"
+    },
+    {
+        "id": "q08",
+        "question": "Which Enterprise accounts are at risk of not renewing, and how much ARR is at risk in total?",
+        "expected_answer": "Gruber Manufacturing (EUR 178K, renewal June 2026), Rheinland Utilities AG (EUR 148K, July 2026) and Alpen Logistics (EUR 94K, May 2026). Total at-risk ARR is EUR 420K (2.3% of total ARR).",
+        "source_document": "quarterly_report_q1_2026.pdf",
+        "difficulty": "medium",
+        "type": "synthesis"
+    },
+    {
+        "id": "q09",
+        "question": "Which CRM did the leadership team choose, and how did the three options compare on 3-year cost?",
+        "expected_answer": "HubSpot Enterprise was chosen, with a target go-live of April 15. 3-year TCO: Salesforce EUR 780K, HubSpot EUR 385K, Freshsales EUR 240K. Freshsales was rejected because it lacks the enterprise capabilities needed to scale.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "medium",
+        "type": "synthesis"
+    },
+    {
+        "id": "q10",
+        "question": "How is the EUR 1.2M budget for NovaTech Copilot broken down?",
+        "expected_answer": "Personnel EUR 780K, infrastructure (GPU compute) EUR 280K, external consulting and dataset licensing EUR 90K, contingency EUR 50K. Staffing is phased: 2 ML engineers from April, 4 by July.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "medium",
+        "type": "factual"
+    },
+    {
+        "id": "q11",
+        "question": "How does the Shared Analytics Dashboard in Insight differ from the one in ProjectHub?",
+        "expected_answer": "The Insight version is a superset: it has the 8 ProjectHub widgets plus 30+ visualization types, custom widgets, data from all connected sources (not only ProjectHub), refresh at connector rates instead of every 30 minutes, interactive drill-down, row-level security, embedding, scheduled distribution and cross-dashboard linking. The ProjectHub version has none of these.",
+        "source_document": "product_guide.pdf",
+        "difficulty": "medium",
+        "type": "comparison"
+    },
+    {
+        "id": "q12",
+        "question": "How many customers did NovaTech have at the end of Q1 2026, how are they split by tier, and how many were won and lost in the quarter?",
+        "expected_answer": "847 customers: 52 Enterprise, 283 Professional and 512 Starter. 41 new customers were added and 15 churned (11 of them Starter).",
+        "source_document": "quarterly_report_q1_2026.pdf",
+        "difficulty": "medium",
+        "type": "synthesis"
+    },
+    {
+        "id": "q13",
+        "question": "When was ProjectHub v3.2 released?",
+        "expected_answer": "The sources disagree: the Q1 2026 quarterly report says February 12, 2026, while the February 12 leadership meeting notes say it shipped on January 28 (two weeks behind schedule). A good answer mentions both.",
+        "source_document": "multiple",
+        "difficulty": "hard",
+        "type": "contradiction"
+    },
+    {
+        "id": "q14",
+        "question": "How often do employees have to change their passwords?",
+        "expected_answer": "The handbook says every 90 days, but the March 5 leadership meeting extended rotation to 180 days for employee user accounts, effective immediately. Infrastructure credentials stay on 90 days.",
+        "source_document": "multiple",
+        "difficulty": "hard",
+        "type": "contradiction"
+    },
+    {
+        "id": "q15",
+        "question": "What is the email address of the Data Protection Officer?",
+        "expected_answer": "The documents give two addresses: the security policy says dpo@novatech.io, the company handbook says dpo@novatech-solutions.com. A good answer mentions both.",
+        "source_document": "multiple",
+        "difficulty": "hard",
+        "type": "contradiction"
+    },
+    {
+        "id": "q16",
+        "question": "A Professional-tier customer had 99.5% uptime last month. Did NovaTech miss its SLA, and what service credit can the customer get?",
+        "expected_answer": "Yes. The Professional SLA is 99.9%, so 99.5% misses it. That falls in the 98.0%-99.89% band, which gives a 10% credit, applied to the next billing cycle. The customer must request it within 30 days of the incident.",
+        "source_document": "product_guide.pdf",
+        "difficulty": "hard",
+        "type": "reasoning"
+    },
+    {
+        "id": "q17",
+        "question": "How many days per week will employees be able to work remotely from Q3 2026?",
+        "expected_answer": "Four days per week, effective Q3 2026, with Tuesday as the mandatory in-office day company-wide (department heads may add in-office days with HR approval). This replaces the handbook's current limit of 3 days per week.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "hard",
+        "type": "reasoning"
+    },
+    {
+        "id": "q18",
+        "question": "Is there free parking at the Munich office?",
+        "expected_answer": "The documents do not contain information about parking at the Munich office.",
+        "source_document": null,
+        "difficulty": "hard",
+        "type": "unanswerable"
+    },
+    {
+        "id": "q19",
+        "question": "How much will customers pay for NovaTech Copilot?",
+        "expected_answer": "The documents do not give a customer price for Copilot. They only mention its internal budget (EUR 1.2M) and its timeline.",
+        "source_document": null,
+        "difficulty": "hard",
+        "type": "unanswerable"
+    },
+    {
+        "id": "q20",
+        "question": "Does NovaTech pay for gym memberships or other fitness subsidies?",
+        "expected_answer": "The documents do not contain information about gym memberships or fitness subsidies.",
+        "source_document": null,
+        "difficulty": "hard",
+        "type": "unanswerable"
+    }
+]

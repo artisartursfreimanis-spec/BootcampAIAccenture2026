@@ -1,0 +1,78 @@
+{
+  "source_file": "pipeline_outputs_local.json",
+  "n": 14,
+  "hit_at_5": 1.0,
+  "mrr": 1.0,
+  "per_question": [
+    {
+      "id": "q01",
+      "source_document": "company_handbook.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q02",
+      "source_document": "company_handbook.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q03",
+      "source_document": "company_handbook.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q04",
+      "source_document": "product_guide.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q05",
+      "source_document": "product_guide.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q06",
+      "source_document": "quarterly_report_q1_2026.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q07",
+      "source_document": "product_guide.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q08",
+      "source_document": "quarterly_report_q1_2026.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q09",
+      "source_document": "meeting_notes.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q10",
+      "source_document": "meeting_notes.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q11",
+      "source_document": "product_guide.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q12",
+      "source_document": "quarterly_report_q1_2026.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q16",
+      "source_document": "product_guide.pdf",
+      "rank": 1
+    },
+    {
+      "id": "q17",
+      "source_document": "meeting_notes.pdf",
+      "rank": 1
+    }
+  ]
+}

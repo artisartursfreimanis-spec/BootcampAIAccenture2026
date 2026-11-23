@@ -1,0 +1,64 @@
+{
+  "execution_summary": {
+    "start_time": "2026-11-23T13:21:26.028221",
+    "end_time": "2026-11-23T13:21:35.285195",
+    "duration_seconds": 9.26,
+    "total_events": 6
+  },
+  "events": [
+    {
+      "timestamp": "2026-11-23T13:21:26.028222",
+      "event_type": "CREW_START",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution started"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T13:21:26.028235",
+      "event_type": "AGENT_INIT",
+      "agent": "Casting Director",
+      "details": {
+        "tools": [
+          "role_matcher",
+          "fetch_actor_database"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T13:21:26.028244",
+      "event_type": "AGENT_INIT",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "tools": [
+          "actor_availability_checker"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T13:21:26.028975",
+      "event_type": "TASK_START",
+      "agent": "Casting Director",
+      "details": {
+        "task": "Find actors for Captain Zara Quinn"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T13:21:35.285128",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T13:21:35.285200",
+      "event_type": "CREW_END",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution completed",
+        "duration_seconds": 9.26
+      }
+    }
+  ]
+}
